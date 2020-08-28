@@ -7,12 +7,12 @@ First python project.
 Clone repository.
 
 ```bash
-pip install foobar
+git clone https://github.com/antaryamie/First_Project.git
 ```
 
 ## Usage
 
-```python
+```bash
 used git commands
    git clone
    git log
