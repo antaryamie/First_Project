@@ -13,3 +13,4 @@ capital = ['CSE', 'Networking', 'Operating System']
 Make sure to mention at least 5 top notch technologies of Frontend.
 Also mentioned the name of companies using those 5 technologies individually
 '''
+
