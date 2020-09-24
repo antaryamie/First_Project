@@ -15,6 +15,7 @@ No. of Lower case Characters : 12
 # def reverse_string(str):
 #     user_input = input("Enter desired string: ")
 #     result = print('reverse sting is : ', user_input[::-1])
+
 #     return result
 
 # x = str
@@ -183,3 +184,46 @@ a()
 '''
 
 
+# 8.
+
+def generateSquares(i):
+    return (i*i,)
+result3 = generateSquares(5)
+
+# 9.
+
+def showNumbers(limit):
+    for i in range(limit+1):
+        print("{} EVEN".format(i)) if i%2==0 else print("{} ODD".format(i))
+
+showNumbers(5)
+
+# 10.
+
+remove_even = lambda x:x%2==0
+result4 = list(filter(remove_even, list(range(1,21))))
+
+# 11.
+
+var2 = [1,2,3,4,5,6,7,8,9,10]
+result5 = [*map(lambda x:x*x, filter(remove_even, var2))]
+
+# 12.
+
+try:
+    var3 = 5/0
+except BaseException as e:
+    print("Cannot Divide", e)
+
+# 13.
+
+from functools import reduce
+var4 = [[1,2,3],[4,5],[6,7,8]]
+result6 = reduce(lambda x,y:x+y, var4)
+# result6 = reduce(lambda x,y:str(x)+""+str(y), var4)
+
+
+# 14.
+
+# return 2
+# error
